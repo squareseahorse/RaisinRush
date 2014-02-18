@@ -1,20 +1,77 @@
-body { background: #2ebbbb; min-height: 600px;}
-
-#wrapper {
-	min-height: 100%;
-	height: auto !important;
-	margin: 0 auto -60px;
-	padding: 0 0 60px;
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
 }
 
-#clouds { 
-	height: 60px;
-	background: white;
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
 }
 
-#landing { 
-	text-align: center
+
+
+
+/* My CSS
+-------------------------------------------------- */
+
+body { background: #2ebbbb; }
+
+#outer_h { text-align: center; }
+
+#chep {
+	display: inline-block; 
+	padding-left: 600px;
+	width: 0;
+	height: 345px;
+	background: url(../images/header.png) no-repeat;
+	overflow: hidden;
+	margin-top: 50px;
 }
+
+#footer { 
+	background: #894225; 
+	position: absolute;
+	height: 80px;
+	width: 100%;
+	z-index: -1;
+}
+
+#footer:before {
+	content: "";
+	position: absolute;
+	background: url(../images/kitchen2.png) no-repeat;
+	background-position: bottom center;
+	height: 326px;
+	width: 100%;
+	bottom: 0px;
+	z-index: -1;
+}
+
+
+/**
 
 #header { 
 	display: inline-block; 
@@ -28,6 +85,7 @@ body { background: #2ebbbb; min-height: 600px;}
 
 #foot {
 	position: absolute;
+	bottom: 0;
 	width: 100%;
 	height: 60px;
 	background-color: #894225;
@@ -51,3 +109,5 @@ a.cookie_button {
 	overflow: hidden;
 	margin: 15px 70px;
 }
+
+*/
