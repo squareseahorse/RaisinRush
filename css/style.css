@@ -1,0 +1,38 @@
+body { background: #2ebbbb; }
+
+#clouds { 
+	height: 60px;
+	background: white;
+}
+
+#landing { 
+	text-align: center
+}
+
+#header { 
+	display: inline-block; 
+	padding-left: 600px;
+	width: 0;
+	height: 345px;
+	background: url(../images/header.png) no-repeat;
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+#foot { 
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 60px;
+	background: white;
+}
+
+a.cookie_button {
+	display: inline-block; 
+	padding-left: 100px;
+	width: 0;
+	height: 48px;
+	background: url(../images/button.png) no-repeat;
+	overflow: hidden;
+	margin: 15px 70px;
+}
