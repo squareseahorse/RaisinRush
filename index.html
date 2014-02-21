@@ -35,11 +35,12 @@
     	//if on mobile and referred from Facebook
     	if(isMobile.any()) {
     		if(document.URL.indexOf("facebook") > 0 ) {
-          if( isMobile.iOS() ) {
-            window.location.replace("https://itunes.apple.com/ph/app/kingdom-rush/id516378985?mt=8");
+          /*if( isMobile.iOS() ) {
+            window.location.replace("https://itunes.apple.com/ph/app/kingdom-rush/id516378985?mt=8"); // REPLACE LINK FOR iOS
           }
-					else if( isMobile.Android() ) {
-            window.location.replace("https://play.google.com/store/apps/details?id=com.glu.dragonslayer");
+					else */
+            if( isMobile.Android() ) {
+            window.location.replace("https://play.google.com/store/apps/details?id=com.glu.dragonslayer"); // REPLACE LINK FOR ANDROID
           }
 					// else location.replace = "http://google.com";
 				}
@@ -84,7 +85,10 @@
 	</div>
 
     <div id="footer">
-      <div class="container"> </div>
+      <div class="container">
+        <a href='http://skillshotlabs.com/legal/eula.php' id='eula' class='footlinks'>EULA</a>
+        <a href='http://skillshotlabs.com/legal/mobile_privacy_policy.php' id='privpolicy' class='footlinks'>PRIVACY POLICY</a>
+      </div>
     </div>
    </body> 
 
