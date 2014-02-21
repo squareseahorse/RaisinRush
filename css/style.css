@@ -45,7 +45,7 @@ body { background: #2ebbbb; }
 	min-height: 350px;
 	position: relative;
 }
-#top_content .page-header { border: none; }
+#top_content .page-header { border: none; margin-bottom: 0; }
 #lightrays {
 	position:relative;
 	z-index: -1;
@@ -139,7 +139,7 @@ body { background: #2ebbbb; }
 }
 
 #mid_content {
-	min-height: 400px;
+	margin-bottom: 320px;
 	text-align: center;
 	color: #FFF;
 }
@@ -153,6 +153,9 @@ body { background: #2ebbbb; }
 	background: #333;
 	vertical-align: middle;
 }
+.download-button.soon {
+	cursor: not-allowed;
+}
 #android-button {
 	background: url(../images/gplay_badge.png) no-repeat;
 	padding-top: 45px;
@@ -162,7 +165,7 @@ body { background: #2ebbbb; }
 	margin: 15px 10%;
 }
 #ios-button {
-	background: url(../images/appstore_badge.png) no-repeat;
+	background: url(../images/appstore_badge_soon.png) no-repeat;
 	padding-top: 40px;
 	width: 135px;
 	height: 0;
